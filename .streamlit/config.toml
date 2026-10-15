@@ -1,0 +1,7 @@
+# Local-only: the app listens on this computer only and sends no usage statistics.
+[server]
+address = "localhost"
+maxUploadSize = 1000
+
+[browser]
+gatherUsageStats = false
